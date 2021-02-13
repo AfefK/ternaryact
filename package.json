@@ -1,0 +1,10 @@
+{
+  "name": "ternaryact",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Afef KEFFEF <afef.nicole@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drive test</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link href="main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 col-sm-12 p-5">
+          <h1 class="display-3">Test Driver Info</h1>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="name" class="form-control" id="inputname" />
+            </div>
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input type="text" class="form-control" id="inputage" />
+            </div>
+            <div class="form-group">
+              <label for="licence-age">Licence Age</label>
+              <input type="text" class="form-control" id="licenceAge" />
+            </div>
+            <div class="form-group">
+              <label for="genders">Select gender</label>
+              <select class="form-control" id="genders">
+                <option value="f">Female</option>
+                <option value="m">Male</option>
+              </select>
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-success" id="success">
+                Submit</button
+              ><button type="reset" class="btn btn-danger">Reset</button>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-5 col-sm-12 screen p-5">
+          <h3>Name</h3>
+          <p id="name"></p>
+          <h3>Age</h3>
+          <p id="age"></p>
+          <h3>Gender</h3>
+          <p id="gender"></p>
+          <h3>Licence Age</h3>
+          <p id="licenceageout"></p>
+          <h3>Is driver</h3>
+          <p id="result"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
